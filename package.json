@@ -1,0 +1,35 @@
+{
+  "name": "@sefasungur/random-coordinate-generator",
+  "description": "Generate random coordinates.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "builtEntry": "./build/index.js",
+  "private": false,
+  "keywords": ["nodejs","javascript","random-coordinate-generator"],
+  "bugs": {
+    "url": "https://github.com/sefasungur/random-coordinate-generator/issues"
+  },
+  "homepage": "https://sefa.dev",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sefasungur/random-coordinate-generator"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx babel src -d ./build --copy-files",
+    "dev": "npx babel src -d ./build --copy-files --watch"
+  },
+  "author": {
+    "name": "Sefa Sungur",
+    "email": "info@sefasungur.com"
+  },
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.5",
+    "@babel/node": "^7.18.5",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/register": "^7.17.7"
+  }
+}
